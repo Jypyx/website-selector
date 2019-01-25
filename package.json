@@ -1,0 +1,43 @@
+{
+  "name": "website-selector",
+  "version": "1.0.0",
+  "description": "Download specific version of a website",
+  "readmeFilename": "README.md",
+  "main": "index.js",
+  "scripts": {
+    "lint:js": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xdarmet/website-selector.git"
+  },
+  "keywords": [
+    "scraper",
+    "download",
+    "selector",
+    "website"
+  ],
+  "author": "Xavier DARMET <xdarmet@leadformance.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xdarmet/website-selector/issues"
+  },
+  "homepage": "https://github.com/xdarmet/website-selector",
+  "dependencies": {
+    "clean-css": "^4.1.9",
+    "del": "^3.0.0",
+    "jsdom": "^11.3.0",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0",
+    "purify-css": "^1.2.6",
+    "website-scraper": "^3.3.2",
+    "website-scraper-phantom": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}
